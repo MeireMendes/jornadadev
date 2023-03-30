@@ -1,15 +1,15 @@
 
 import './App.css';
-import video from "./pages/video"
+import Video from "./pages/Video"
 
 function App() {
   return (
     <div className="App">
-      <div className='app_videos'>
-        <video />
-        <video />
-        <video />
-        <video />
+      <div className='app__videos'>
+        <Video />
+        <Video />
+        <Video />
+        <Video />
       </div>
     </div>
   );
