@@ -1,5 +1,4 @@
 .video{
-    background-color: rgb(174, 22, 22);
     height: 100%;
     width: 100%;
     scroll-snap-align: start;
@@ -7,5 +6,7 @@
 }
 
 .video__player{
-
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
