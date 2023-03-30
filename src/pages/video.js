@@ -1,12 +1,12 @@
 import React from 'react'
 import "./video.css"
 
-function video() {
+function Video() {
   return (
     <div className="video">
-        Eu sou um componente video
+        Eu sou um componente Video
     </div>
   )
 }
 
-export default video
+export default Video
