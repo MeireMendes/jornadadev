@@ -17,7 +17,7 @@
   }
 
   /* Esconde a scroll bar no chrome, safari e opera */
-.app__videos: ::-webkit-scrollbar{
+.app__videos::-webkit-scrollbar{
   display: none;
 }
 
