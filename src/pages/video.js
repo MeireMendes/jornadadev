@@ -4,7 +4,7 @@ import VideoSidebar from "./components/sidebar/VideoSidebar"
 import "./video.css";
 
 
-function Video({likes, messages, shares, name, description, music, url}) {
+function Video ({likes, messages, shares, name, description, music, url}) {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
